@@ -1,0 +1,15 @@
+// Formato: {rst_n, load, enable} | data_in | exp_count | exp_max_tick
+000000  // V0:  Reset Asíncrono inicial -> exp=0x00, tick=0
+400000  // V1:  IDLE (rst_n=1, load=0, enable=0) -> exp=0x00, tick=0
+6A5A50  // V2:  LOAD 0xA5 (alternancia bits) -> exp=0xA5, tick=0
+65A5A0  // V3:  LOAD 0x5A (alternancia invertida 10101010 -> 01010101) -> exp=0x5A, tick=0
+5005B0  // V4:  COUNT -> exp=0x5B, tick=0
+4005B0  // V5:  HOLD/IDLE -> exp=0x5B, tick=0
+6FEFE0  // V6:  LOAD 0xFE -> exp=0xFE, tick=0
+500FF1  // V7:  COUNT -> Llega a 0xFF y activa MAX_TICK -> exp=0xFF, tick=1
+500000  // V8:  COUNT -> Desborda a 0x00, desactiva tick -> exp=0x00, tick=0
+500010  // V9:  COUNT -> exp=0x01, tick=0
+600000  // V10: LOAD 0x00 (completa toggles a cero) -> exp=0x00, tick=0
+6FFFF0  // V11: LOAD 0xFF (completa toggles a uno) -> exp=0xFF, tick=0
+400FF0  // V12: IDLE con 0xFF (sin enable) -> exp=0xFF, tick=0
+000000  // V13: Reset final durante operación -> exp=0x00, tick=0

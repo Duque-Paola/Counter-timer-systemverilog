@@ -1,0 +1,4 @@
+db/
+covhtmlreport/
+*.flock
+*.qws

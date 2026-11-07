@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Failed - Fri Nov  6 01:50:52 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Revision Name : counter_timer_duv
+Top-level Entity Name : counter_timer_top
+Family : MAX 10
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge
+UFM blocks : N/A until Partition Merge
+ADC blocks : N/A until Partition Merge

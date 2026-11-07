@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.counter_timer_duv","id":2,"zf":1,"tc":46.55,"s":77.77,"b":67.85,"fc":0.00,"fe":0.00,"fs":60.00,"ft":41.66,"t":78.57},{"n":"work.tb_counter_timer_autocheck","id":1,"zf":1,"tc":67.48,"s":97.67,"b":75.00,"fc":66.66,"t":30.58}]};
+processDuData(g_data);

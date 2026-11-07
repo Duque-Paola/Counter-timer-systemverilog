@@ -1,0 +1,184 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do counter_timer_duv_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/pao_l/Documents/counter_timer_duv {C:/Users/pao_l/Documents/counter_timer_duv/counter_timer_duv.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 23:52:14 on Nov 05,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/pao_l/Documents/counter_timer_duv" C:/Users/pao_l/Documents/counter_timer_duv/counter_timer_duv.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module counter_timer_duv
+# 
+# Top level modules:
+# 	counter_timer_duv
+# End time: 23:52:14 on Nov 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/pao_l/Documents/counter_timer_duv {C:/Users/pao_l/Documents/counter_timer_duv/counter_timer_top.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 23:52:14 on Nov 05,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/pao_l/Documents/counter_timer_duv" C:/Users/pao_l/Documents/counter_timer_duv/counter_timer_top.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module counter_timer_top
+# 
+# Top level modules:
+# 	counter_timer_top
+# End time: 23:52:15 on Nov 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# Cannot determine language of C:/Users/pao_l/Documents/counter_timer_duv/Tcl_script1.tcl
+# Cannot determine language of C:/Users/pao_l/Documents/counter_timer_duv/Tcl_script1.tcl
+vlog -reportprogress 300 -work work C:/Users/pao_l/Documents/counter_timer_duv/tb_counter_timer_autocheck.sv
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:10:47 on Nov 06,2026
+# vlog -reportprogress 300 -work work C:/Users/pao_l/Documents/counter_timer_duv/tb_counter_timer_autocheck.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module tb_counter_timer_autocheck
+# 
+# Top level modules:
+# 	tb_counter_timer_autocheck
+# End time: 00:10:47 on Nov 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+dir
+#  El volumen de la unidad C es OS
+#  El n�mero de serie del volumen es: 2020-3186
+# 
+#  Directorio de C:\Users\pao_l\Documents\counter_timer_duv\simulation\questa
+# 
+# 05/11/2026  11:52 p. m.    <DIR>          .
+# 05/11/2026  04:01 p. m.    <DIR>          ..
+# 05/11/2026  06:46 p. m.                52 counter_timer_duv.sft
+# 05/11/2026  06:46 p. m.            46,118 counter_timer_duv.svo
+# 05/11/2026  11:52 p. m.               390 counter_timer_duv_run_msim_rtl_verilog.do
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak1
+# 02/10/2026  06:02 p. m.               326 counter_timer_duv_run_msim_rtl_verilog.do.bak10
+# 05/11/2026  06:46 p. m.               390 counter_timer_duv_run_msim_rtl_verilog.do.bak11
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak2
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak3
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak4
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak5
+# 02/10/2026  06:01 p. m.               646 counter_timer_duv_run_msim_rtl_verilog.do.bak6
+# 02/10/2026  06:01 p. m.               302 counter_timer_duv_run_msim_rtl_verilog.do.bak7
+# 02/10/2026  06:01 p. m.               302 counter_timer_duv_run_msim_rtl_verilog.do.bak8
+# 02/10/2026  06:01 p. m.               302 counter_timer_duv_run_msim_rtl_verilog.do.bak9
+# 05/11/2026  11:52 p. m.           101,370 modelsim.ini
+# 06/11/2026  12:10 a. m.             3,328 msim_transcript
+# 06/11/2026  12:10 a. m.    <DIR>          rtl_work
+# 30/10/2026  08:28 p. m.               972 vectors_in.hex
+# 31/10/2026  12:39 p. m.            49,152 vsim.wlf
+#               19 archivos        207,526 bytes
+#                3 dirs  237,074,051,072 bytes libres
+cd ../..
+# reading modelsim.ini
+do TCl_script1.tcl
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is aLUMNO-utj@DESKTOP-IIBF034.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work work 
+# ** Note: (vmap-220) 'modelsim.ini' is used as the ini file.
+# Modifying modelsim.ini
+# ==> Compilando todos los modulos del proyecto counter_timer_duv con recoleccion de cobertura...
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:11:13 on Nov 06,2026
+# vlog -reportprogress 300 "+cover=sbecft" counter_timer_duv.sv counter_timer_top.sv tb_counter_timer_autocheck.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module counter_timer_duv
+# -- Compiling module counter_timer_top
+# -- Compiling module tb_counter_timer_autocheck
+# 
+# Top level modules:
+# 	counter_timer_top
+# 	tb_counter_timer_autocheck
+# End time: 00:11:13 on Nov 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:11:13 on Nov 06,2026
+# vlog -reportprogress 300 "+cover=sbecft" counter_timer_duv.sv counter_timer_top.sv tb_counter_timer_autocheck.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module counter_timer_duv
+# -- Compiling module counter_timer_top
+# -- Compiling module tb_counter_timer_autocheck
+# 
+# Top level modules:
+# 	counter_timer_top
+# 	tb_counter_timer_autocheck
+# End time: 00:11:14 on Nov 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# ==> Cargando simulacion con soporte de cobertura...
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -coverage work.tb_counter_timer_autocheck 
+# Start time: 00:11:14 on Nov 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "counter_timer_duv(fast)".
+# Loading sv_std.std
+# Loading work.tb_counter_timer_autocheck(fast)
+# End time: 00:11:25 on Nov 06,2026, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -coverage work.tb_counter_timer_autocheck 
+# Start time: 00:11:25 on Nov 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.tb_counter_timer_autocheck(fast)
+# ==> Ejecutando simulacion...
+# ==================================================================
+#  INICIANDO TESTBENCH AUTO-COMPROBABLE CON GRÁFICAS ACTIVAS        
+# ==================================================================
+# [PASS VEC 0] Count=0x00 | MaxTick=0 | Estado=3'b000
+# [PASS VEC 1] Count=0x00 | MaxTick=0 | Estado=3'b000
+# [PASS VEC 2] Count=0xa5 | MaxTick=0 | Estado=3'b001
+# [PASS VEC 3] Count=0x5a | MaxTick=0 | Estado=3'b001
+# [PASS VEC 4] Count=0x5b | MaxTick=0 | Estado=3'b010
+# ** Error: [FALLA VEC 5] Obtenido: Count=0x5c, Tick=0 | Esperado: Count=0x5b, Tick=0
+#    Time: 260 ns  Scope: tb_counter_timer_autocheck File: tb_counter_timer_autocheck.sv Line: 96
+# [PASS VEC 6] Count=0xfe | MaxTick=0 | Estado=3'b001
+# ** Error: [FALLA VEC 7] Obtenido: Count=0xff, Tick=0 | Esperado: Count=0xff, Tick=1
+#    Time: 340 ns  Scope: tb_counter_timer_autocheck File: tb_counter_timer_autocheck.sv Line: 96
+# ** Error: [FALLA VEC 8] Obtenido: Count=0x01, Tick=0 | Esperado: Count=0x00, Tick=0
+#    Time: 380 ns  Scope: tb_counter_timer_autocheck File: tb_counter_timer_autocheck.sv Line: 96
+# ** Error: [FALLA VEC 9] Obtenido: Count=0x03, Tick=0 | Esperado: Count=0x01, Tick=0
+#    Time: 420 ns  Scope: tb_counter_timer_autocheck File: tb_counter_timer_autocheck.sv Line: 96
+# [PASS VEC 10] Count=0x00 | MaxTick=0 | Estado=3'b001
+# [PASS VEC 11] Count=0xff | MaxTick=0 | Estado=3'b001
+# [PASS VEC 12] Count=0xff | MaxTick=0 | Estado=3'b000
+# [PASS VEC 13] Count=0x00 | MaxTick=0 | Estado=3'b000
+# ==================================================================
+#  RESULTADO: SIMULACIÓN FALLÓ CON 4 ERRORES
+# ==================================================================
+# ** Note: $stop    : tb_counter_timer_autocheck.sv(116)
+#    Time: 620 ns  Iteration: 0  Instance: /tb_counter_timer_autocheck
+# Break in Module tb_counter_timer_autocheck at tb_counter_timer_autocheck.sv line 116
+# ==> Guardando base de datos UCDB...
+# ==> Generando reportes de cobertura...
+# ==============================================================================
+#  Reporte de cobertura generado exitosamente:
+#    - Texto: cobertura_reporte.txt
+#    - HTML:  covhtmlreport/index.html
+# ==============================================================================
+# End time: 19:27:05 on Nov 06,2026, Elapsed time: 19:15:40
+# Errors: 4, Warnings: 0

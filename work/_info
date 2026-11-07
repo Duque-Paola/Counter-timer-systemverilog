@@ -1,0 +1,132 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+!s12c _opt2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f MIXED_VERSIONS
+!s12c _opt
+R1
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Paola/counter_timer_duv
+T_opt
+!s110 1793464908
+V9oHMcHQ5lkz022Mo@mY[J0
+Z3 04 26 4 work tb_counter_timer_autocheck fast 0
+=1-30138b6e46d6-6ae61a4b-330-23e0
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM10U2 
+Z7 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+R2
+T_opt1
+!i145 1
+!i144 0
+!s110 1793945476
+VWFS<9H3djz`Kk^9A8<;Xi1
+R3
+=1-10b1df75a859-6aed6f83-100-6170
+R1
+R4
+R5
+R6
+R7
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt1
+OL;O;2025.2;82
+vcounter_timer_duv
+Z8 2counter_timer_duv.sv|counter_timer_top.sv|tb_counter_timer_autocheck.sv
+Z9 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z10 !s110 1793945474
+!i10b 1
+!s100 72DS:gh;2`U;RB]e2:NhY1
+IZ50<LZHncIa@iRlc_M00:3
+S1
+Z11 dC:/Users/pao_l/Documents/counter_timer_duv
+w1793464052
+8counter_timer_duv.sv
+Fcounter_timer_duv.sv
+!i122 1
+L0 4 117
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z14 !s108 1793945473.000000
+Z15 !s107 tb_counter_timer_autocheck.sv|counter_timer_top.sv|counter_timer_duv.sv|
+Z16 !s90 -reportprogress|300|+cover=sbecft|counter_timer_duv.sv|counter_timer_top.sv|tb_counter_timer_autocheck.sv|
+!i113 0
+Z17 !s102 +cover=sbecft
+Z18 o+cover=sbecft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 tCvgOpt 0 defaultOptions 1085333592
+vcounter_timer_top
+R8
+R9
+R10
+!i10b 1
+!s100 aIS`WaKFc0f6XZ^^Q7<B42
+I4?Y3Djo;V^MAjGh=n;VMM0
+S1
+R11
+w1790985382
+8counter_timer_top.sv
+Fcounter_timer_top.sv
+!i122 1
+L0 4 20
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R18
+R19
+vtb_counter_timer_autocheck
+R8
+R9
+R10
+!i10b 1
+!s100 _z@m;kGnXM`j<:zOHi8663
+I=SLhEMLh5iE``Qm;ZULCe3
+S1
+R11
+w1793464318
+8tb_counter_timer_autocheck.sv
+Ftb_counter_timer_autocheck.sv
+!i122 1
+L0 4 116
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R18
+R19

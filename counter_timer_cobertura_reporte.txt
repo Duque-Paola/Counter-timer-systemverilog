@@ -1,0 +1,410 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_counter_timer_autocheck/duv
+=== Design Unit: work.counter_timer_duv
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        19         9    67.85%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_counter_timer_autocheck/duv
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File counter_timer_duv.sv
+------------------------------------IF Branch------------------------------------
+    31                                        19     Count coming in to IF
+    31              1                          4     
+    33              1                         15     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    44                                        25     Count coming in to CASE
+    45              1                          6     
+    54              1                          8     
+    63              1                         10     
+    74              1                    ***0***     
+    91              1                          1     
+Branch totals: 4 hits of 5 branches = 80.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                         6     Count coming in to IF
+    46              1                          2     
+    48              1                    ***0***     
+    50              1                          4     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    49                                   ***0***     Count coming in to IF
+    49              1                    ***0***     
+    49              2                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    55                                         8     Count coming in to IF
+    55              1                          5     
+    57              1                          2     
+    59              1                          1     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    64                                        10     Count coming in to IF
+    64              1                          1     
+    66              1                          1     
+    68              1                    ***0***     
+    70              1                          8     
+Branch totals: 3 hits of 4 branches = 75.00%
+
+------------------------------------IF Branch------------------------------------
+    75                                   ***0***     Count coming in to IF
+    75              1                    ***0***     
+    77              1                    ***0***     
+    79              1                    ***0***     
+Branch totals: 0 hits of 3 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    101                                       25     Count coming in to IF
+    101             1                          4     
+    103             1                         21     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    104                                       21     Count coming in to CASE
+    105             1                         10     
+    106             1                          8     
+    107             1                    ***0***     
+    108             1                          3     
+Branch totals: 3 hits of 4 branches = 75.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_counter_timer_autocheck/duv --
+
+  File counter_timer_duv.sv
+----------------Focused Condition View-------------------
+Line       49 Item    1  (count_out == 254)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (count_out == 254)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (count_out == 254)_0  -                             
+  Row   2:    ***0***  (count_out == 254)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       68 Item    1  (count_out == 254)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (count_out == 254)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (count_out == 254)_0  -                             
+  Row   2:    ***0***  (count_out == 254)_1  -                             
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      2         0         2     0.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_counter_timer_autocheck/duv --
+
+  File counter_timer_duv.sv
+----------------Focused Expression View-----------------
+Line       117 Item    1  ((current_state == ST_MAX_TICK) && enable)
+Expression totals: 0 of 2 input terms covered = 0.00%
+
+                      Input Term   Covered  Reason for no coverage   Hint
+                     -----------  --------  -----------------------  --------------
+  (current_state == ST_MAX_TICK)         N  '_1' not hit             Hit '_1'
+                          enable         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                        Non-masking condition(s)      
+ ---------  ---------  --------------------              -------------------------     
+  Row   1:          1  (current_state == ST_MAX_TICK)_0  -                             
+  Row   2:    ***0***  (current_state == ST_MAX_TICK)_1  enable                        
+  Row   3:    ***0***  enable_0                          (current_state == ST_MAX_TICK)
+  Row   4:    ***0***  enable_1                          (current_state == ST_MAX_TICK)
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       5         3         2    60.00%
+    FSM Transitions                 12         5         7    41.66%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb_counter_timer_autocheck/duv --
+
+FSM_ID: current_state
+    Current State Object : current_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  45             ST_IDLE                   0
+  63            ST_COUNT                   2
+  74         ST_MAX_TICK                   3
+  54             ST_LOAD                   1
+  86            ST_ERROR                   4
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                 ST_IDLE                   9          
+                ST_COUNT                   4          
+                 ST_LOAD                   6          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  47                   2                   2          ST_IDLE -> ST_LOAD            
+  67                   4                   1          ST_COUNT -> ST_IDLE           
+  65                   5                   1          ST_COUNT -> ST_LOAD           
+  60                   9                   1          ST_LOAD -> ST_IDLE            
+  58                  10                   2          ST_LOAD -> ST_COUNT           
+    Uncovered States :
+    ------------------
+                   State
+                   -----
+             ST_MAX_TICK
+                ST_ERROR
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+  49                   0          ST_IDLE -> ST_COUNT 
+  49                   1          ST_IDLE -> ST_MAX_TICK
+  69                   3          ST_COUNT -> ST_MAX_TICK
+  80                   6          ST_MAX_TICK -> ST_IDLE
+  78                   7          ST_MAX_TICK -> ST_COUNT
+  76                   8          ST_MAX_TICK -> ST_LOAD
+  87                  11          ST_ERROR -> ST_IDLE 
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   5         3         2    60.00%
+        FSM Transitions             12         5         7    41.66%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      27        21         6    77.77%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_counter_timer_autocheck/duv --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File counter_timer_duv.sv
+    30              1                         19     
+    32              1                          4     
+    34              1                         15     
+    41              1                         25     
+    42              1                         25     
+    47              1                          2     
+    49              1                    ***0***     
+    51              1                          4     
+    56              1                          5     
+    58              1                          2     
+    60              1                          1     
+    65              1                          1     
+    67              1                          1     
+    69              1                    ***0***     
+    71              1                          8     
+    76              1                    ***0***     
+    78              1                    ***0***     
+    80              1                    ***0***     
+    92              1                          1     
+    100             1                         25     
+    102             1                          4     
+    105             1                         10     
+    106             1                          8     
+    107             1                    ***0***     
+    108             1                          3     
+    116             1                         13     
+    117             1                         13     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         28        22         6    78.57%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_counter_timer_autocheck/duv --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                     current_state               ENUM type       Value       Count 
+                                                               ST_MAX_TICK           0        0.00 
+                                                                  ST_ERROR           0        0.00 
+                                          max_tick           0           0                                0.00 
+                                        next_state               ENUM type       Value       Count 
+                                                               ST_MAX_TICK           0        0.00 
+                                                                  ST_ERROR           0        0.00 
+
+Total Node Count     =         19 
+Toggled Node Count   =         14 
+Untoggled Node Count =          5 
+
+Toggle Coverage      =      78.57% (22 of 28 bins)
+
+=================================================================================
+=== Instance: /tb_counter_timer_autocheck
+=== Design Unit: work.tb_counter_timer_autocheck
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         3         1    75.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_counter_timer_autocheck
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_counter_timer_autocheck.sv
+------------------------------------IF Branch------------------------------------
+    94                                        14     Count coming in to IF
+    94              1                          4     
+    101             1                         10     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    110                                        1     Count coming in to IF
+    110             1                    ***0***     
+    112             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       3         2         1    66.66%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_counter_timer_autocheck --
+
+  File tb_counter_timer_autocheck.sv
+----------------Focused Condition View-------------------
+Line       94 Item    1  ((tb_count_out !== test_vectors[vector_index].expected_count) || (tb_max_tick !== test_vectors[vector_index].expected_max_tick))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       110 Item    1  (error_count == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (error_count == 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (error_count == 0)_0  -                             
+  Row   2:    ***0***  (error_count == 0)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      43        42         1    97.67%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_counter_timer_autocheck --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_counter_timer_autocheck.sv
+    44              1                          1     
+    45              1                          1     
+    45              2                         62     
+    45              3                         61     
+    51              1                          1     
+    52              1                          1     
+    53              1                          1     
+    54              1                          1     
+    55              1                          1     
+    56              1                          1     
+    57              1                          1     
+    58              1                          1     
+    59              1                          1     
+    60              1                          1     
+    61              1                          1     
+    62              1                          1     
+    63              1                          1     
+    64              1                          1     
+    69              1                          1     
+    70              1                          1     
+    71              1                          1     
+    74              1                          1     
+    75              1                          1     
+    76              1                          1     
+    77              1                          1     
+    79              1                          1     
+    82              1                          1     
+    82              2                         14     
+    84              1                         14     
+    85              1                         14     
+    86              1                         14     
+    87              1                         14     
+    88              1                         14     
+    91              1                         14     
+    96              1                          4     
+    100             1                          4     
+    102             1                         10     
+    107             1                          1     
+    109             1                          1     
+    111             1                    ***0***     
+    113             1                          1     
+    114             1                          1     
+    116             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        170        52       118    30.58%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_counter_timer_autocheck --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                    error_count[2]           0           1                               50.00 
+                                 error_count[3-31]           0           0                                0.00 
+                                       tb_max_tick           0           0                                0.00 
+                                   vector_index[3]           0           1                               50.00 
+                                vector_index[4-31]           0           0                                0.00 
+
+Total Node Count     =         85 
+Toggled Node Count   =         25 
+Untoggled Node Count =         60 
+
+Toggle Coverage      =      30.58% (52 of 170 bins)
+
+
+Total Coverage By Instance (filtered view): 48.25%
+

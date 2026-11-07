@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Paola/counter_timer_duv {C:/Paola/counter_timer_duv/counter_timer_duv.sv}
+vlog -sv -work work +incdir+C:/Paola/counter_timer_duv {C:/Paola/counter_timer_duv/counter_timer_top.sv}
+

@@ -1,0 +1,8 @@
+
+State Machine - |counter_timer_top|counter_timer_duv:u_duv|current_state
+Name current_state.ST_MAX_TICK current_state.ST_COUNT current_state.ST_LOAD current_state.ST_IDLE current_state.ST_ERROR 
+current_state.ST_IDLE 0 0 0 0 0 
+current_state.ST_LOAD 0 0 1 1 0 
+current_state.ST_COUNT 0 1 0 1 0 
+current_state.ST_MAX_TICK 1 0 0 1 0 
+current_state.ST_ERROR 0 0 0 1 1 
